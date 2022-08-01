@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+#rel_contagem{display:none;}
+
+
+
+.form_invisivel{ border:0px; text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#030; font-weight:bold; text-align:left;}
+
+#text_topo_print{ display:none;}
+
+h2{ font-family:Verdana, Geneva, sans-serif; color:#060; font-size:20px; font-weight:bold; text-align:center;}
+a:link, a:visited, a:active {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+#tabela_servidor a:link, a:visited, a:active {text-decoration: none; color:#030;}
+#tabela_servidor a:hover {text-decoration: underline; color:#0C0;}
+
+.style1{text-align:center; font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:20px; color:#FFF;}
+.style1_1{text-align:center; font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:20px; color:#030;}
+.style2{text-align:left; font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:20px; color:#FFF;}
+.style3{text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#6FF; float:right;}
+.style4{text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#6FF;}
+.style5{text-align:left; font-family:Verdana, Geneva, sans-serif; font-size:15px;  color:#030; font-weight:bold;}
+.style6{text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#006; font-weight:bold;}
+.style7{text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#600; font-weight:bold;}
+.style7 a:hover,visited,link,active{text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#600; font-weight:bold;}
+/*****************************************************************************
+									Topo
+******************************************************************************/
+/* #describe{ style="background-color:#E6E6FF;width:400px;height:32px}*/
+#text_topo{float:none; margin:0 auto;}
+#principal_topo{width:100%; height:172px; background:url(../img/bg_topo.png); position:relative;}
+#versao { float:right; font-family:Verdana, Geneva, sans-serif; size:10px;}
+/******************************Manupulação dos links do topo*******************************************/
+#principal_topo a:hover{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0 ; text-decoration:underline}
+#principal_topo a:visited{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+#principal_topo a:link{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+#principal_topo a:active{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+.Texto_menu{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+.Texto_menu:hover{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+/******************************Fim manupulação dos links do topo*******************************************/
+#logo{float:left; margin-top:25px; margin-left:30px;}
+#imgtopo1{float:right; margin-top:45; margin-right:30px;}
+#text_topo2{float:left; width:100%; padding-top:5px;}
+
+/*****************************************************************************
+								   Fim Topo
+******************************************************************************/
+
+/*****************************************************************************
+								   Conteudo
+******************************************************************************/
+
+#principal_conteudo{ widows:800px; margin:0 auto; border:#000 solid 1px;}
+
+/*****************************************************************************
+								Fim Conteudo
+******************************************************************************/
+
+
+/*****************************************************************************
+									Rodape
+******************************************************************************/
+#text_rodape{float:none; font-size:11px; margin:0 auto; text-align:center; color:#FFF;}
+#principal_rodape{width:100%; height:18px; background:url(../img/bg_topo.png); clear:both; padding-top:-30; position:fixed; bottom:0px; }
+/******************************Manupulação dos links do Rodape*******************************************/
+#principal_rodape a:hover{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0 ; underline;color: #FFF}
+#principal_rodape a:visited{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+#principal_rodape a:link{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+#principal_rodape a:active{font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#0C0;}
+
+
+/*****************************************************************************
+								   Fim Rodape
+******************************************************************************/
+/*****************************************************************************
+									Menu
+******************************************************************************/
+#principal_menu_caixas{ width:100%; float:left; text-align:left;}
+/*****************************************************************************
+								   Fim Menu
+******************************************************************************/
+/***************************Comfiguração da tabela zebrada**********************/
+tr.zebra td {background:#eee; color:#000;}
+#tabela_servidor{ font-family:Verdana, Geneva, sans-serif; font-size:10px; text-align:center; color:#000;}
+th{background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFFAFA),
+	color-stop(1, #FF5E14),
+	color-stop(1, #FFFAFA)
+);
+background-image: -o-linear-gradient(bottom, #DCDCDC 0%, #FFFAFA 100%, #DCDCDC 100%);
+background-image: -moz-linear-gradient(bottom, #DCDCDC 0%, #FFFAFA 100%, #DCDCDC 100%);
+background-image: -webkit-linear-gradient(bottom, #DCDCDC 0%, #FFFAFA 100%, #DCDCDC 100%);
+background-image: -ms-linear-gradient(bottom, #DCDCDC 0%, #FFFAFA 100%, #DCDCDC 100%);
+background-image: linear-gradient(to bottom, #DCDCDC 0%, #FFFAFA 100%, #DCDCDC 100%);
+); font-size:11px;}
+/********************* Termina Comfiguração da tabela zebrada*******************/
+/********************* Destaques *******************/
+#destaque_vermelho { font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle; color:#CFC;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #731005),
+	color-stop(0.50, #DB1E05),
+	color-stop(1, #731005)
+);
+background-image: -o-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -moz-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -webkit-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -ms-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: linear-gradient(to bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+}
+
+#destaque_vermelho a:link, a:visited, a:hover, a:active { font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle; font-size:10px; color:#CCC;}
+
+#destaque_verde{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #03DB8F),
+	color-stop(0.93, #00FF80),
+	color-stop(1, #03DB8F)
+);
+background-image: -o-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -moz-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -webkit-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -ms-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: linear-gradient(to bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%); 
+}

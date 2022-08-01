@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+img, form, #principal_topo, .style4, .style1, .style2, .style3, .style5, #text_topo, h2, #principal_rodape, #opcao_tb, #chamado_aberto_opcao{ 
+	display:none;
+}
+
+#rel_contagem{ text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:15; 
+}
+
+.form_invisivel{ border:0px; text-align:right; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#030; font-weight:bold; text-align:left;}
+
+#destaque_vermelho{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle; color:#CFC;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #731005),
+	color-stop(0.50, #DB1E05),
+	color-stop(1, #731005)
+);
+background-image: -o-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -moz-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -webkit-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -ms-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: linear-gradient(to bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+}
+
+.logo_benassi{display:block; float:left; padding-left:10%;}
+#wrapper, #Principal_login, #nav, #header{ display:none;}
+h2{ font-family:Verdana, Geneva, sans-serif; color:#060; font-size:20px; font-weight:bold; text-align:center;}
+a:link, a:visited, a:active {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+/***************************Comfiguração da tabela zebrada**********************/
+tr.zebra td {background:#eee; color:#000;}
+#tabela_servidor{ font-family:Verdana, Geneva, sans-serif; font-size:10px; text-align:center; color:#000; border:0}
+th{ background-color:#eee; color:#000; font-size:11px;}
+/********************* Termina Comfiguração da tabela zebrada*******************/

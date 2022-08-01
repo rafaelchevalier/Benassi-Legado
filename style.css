@@ -1,0 +1,271 @@
+/* Estilos de textos */
+.style1 { font-family:Verdana, Geneva, sans-serif; text-align:center; font-weight:bold; font-size:20px; color:#003;}
+.style2 { font-family:Verdana, Geneva, sans-serif; text-align:left; font-weight:bold; font-size:9px;}
+.style3 {font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:10px;}
+.style4 {font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:12px; text-align:left; color:#330;}
+.style_legenda {font-family:Verdana, Geneva, sans-serif; font-size:9px; text-align:left; color:#666;}
+
+#data_erro { float:left; padding-left:5px}
+
+.th_fundo_claro{
+background: rgb(76,76,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(12%,rgba(89,89,89,1)), color-stop(25%,rgba(102,102,102,1)), color-stop(39%,rgba(71,71,71,1)), color-stop(50%,rgba(44,44,44,1)), color-stop(51%,rgba(0,0,0,1)), color-stop(60%,rgba(17,17,17,1)), color-stop(76%,rgba(43,43,43,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+font:Verdana, Geneva, sans-serif; color:#FFF;
+	
+	}
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	border: 0;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.more {
+	text-align: right;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+
+body, h3, form {
+	font: 10px tahoma, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #5C5C5C;
+}
+
+body {
+	background: url(images/header_bg.jpg) repeat-x;
+	text-align: center;
+	margin: 0 auto;
+}
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 774px;
+}
+
+
+#header {
+	height: 203px;
+	position: absolute;
+}
+#header h1 {
+	margin-top: 44px;
+}
+#header h1 img {
+	display: block;
+}
+
+
+#headline {
+	padding-top: 205px;
+}
+a {
+	font-weight: bold;
+	color: #5C5C5C;
+}
+
+#body {
+	padding-top: 2em;
+	text-align: justify;
+}
+
+#body-left {
+	float: left;
+	width: 408px;
+}
+#body-right {
+	float: right;
+	width: 330px;
+}
+
+#body-left ul.plussbullets {
+	margin-top: 45px;
+	margin-left: 120px;
+	padding: 0;
+	font-weight: bold;
+}
+#body-left ul.plussbullets li {
+	background: top left url(images/bullet_plus.gif) no-repeat;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 25px;
+	text-align:left
+}
+
+#body h2, #body p {
+	margin: 0.3em 0;
+}
+
+#body-right p {
+	margin-right: 2em;
+}
+
+#body a.green {
+	color: #9AAB68;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#gallery img {
+	float: left;
+}
+
+#footer {
+	color: #FFFFFF;
+	background: #42453D url(images/footer_bg.gif) repeat-x;
+	padding: 6px 0 5px 0;
+	margin-top: 2em;
+	font-weight: bold;
+	
+}
+#footer p {
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+#td_vertical{ 
+}
+/************************* Procedimentos.php ************************************/
+#div_procedimentos{ width:300px; margin:0 auto; text-align:left;}
+#div_procedimentos h1{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#003; font-size:bold; text-align:left;}
+#div_procedimentos h2{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#030; font-size:bold; text-align:left; margin-left:10px}
+#div_procedimentos a{ color:#333; margin-left:20px; font-size:11px;}
+/************************* Fim Procedimentos.php ************************************/
+/************************* Menu.php ************************************/
+#nav {margin-top: 7px; padding-top:130px; padding-left:50px; font-family:Verdana, Geneva, sans-serif; font-size:15px;}
+#nav a:hover{ background-color:#390; color:#FFF;}
+#nav img {float: left;}
+/************************* Fim Menu.php ************************************/
+/************************* login.php ************************************/
+#Principal_login{ float:right; width:100px; font-family:Verdana, Geneva, sans-serif; color:#FFF }
+#divlogin {float:right; padding-top:20px; margin:auto; font-family:Verdana, Geneva, sans-serif; color:#FFF;  }
+#tblogin {font-family:Verdana, Geneva, sans-serif; color:#FFF;  }
+#tblogin a{font-family:Verdana, Geneva, sans-serif; color:#FFF  }  
+/************************* Fim login.php ************************************/
+/************************* topo.php ************************************/
+.logo_benassi{float:left; padding-top:20px; padding-left:50px; }
+/************************* Fim topo.php ************************************/
+
+
+/**********************************************************************
+						Tabelas Patrimonio
+*********************************************************************/
+
+/***************************Comfiguração da tabela zebrada**********************/
+#chamado_aberto{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #03DB8F),
+	color-stop(0.93, #00FF80),
+	color-stop(1, #03DB8F)
+);
+background-image: -o-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -moz-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -webkit-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -ms-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: linear-gradient(to bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%); 
+}
+
+
+#destaque_vermelho{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle; color:#CFC;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #731005),
+	color-stop(0.50, #DB1E05),
+	color-stop(1, #731005)
+);
+background-image: -o-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -moz-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -webkit-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: -ms-linear-gradient(bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+background-image: linear-gradient(to bottom, #731005 0%, #DB1E05 53%, #731005 100%);
+}
+
+#destaque_azul{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle; color:#CFC;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #999999),
+	color-stop(1, #B3B3B3)
+);
+background-image: -o-linear-gradient(bottom, #999999 0%, #B3B3B3 100%);
+background-image: -moz-linear-gradient(bottom, #999999 0%, #B3B3B3 100%);
+background-image: -webkit-linear-gradient(bottom, #999999 0%, #B3B3B3 100%);
+background-image: -ms-linear-gradient(bottom, #999999 0%, #B3B3B3 100%);
+background-image: linear-gradient(to bottom, #999999 0%, #B3B3B3 100%);
+}
+#chamado_aberto_opcao{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; vertical-align:middle;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #03DB8F),
+	color-stop(0.93, #00FF80),
+	color-stop(1, #03DB8F)
+);
+background-image: -o-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -moz-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -webkit-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: -ms-linear-gradient(bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%);
+background-image: linear-gradient(to bottom, #03DB8F 0%, #00FF80 93%, #03DB8F 100%); 
+}
+
+tr.zebra td {background:#CCC; color:#000;}
+tr.zebra td a{background:#CCC; color:#FFF;}
+#tabela_servidor{ font-size:10px; font-family:Verdana, Geneva, sans-serif; text-align:center; color:#000; background-color:#EBEBEB; }
+#tabela_servidor a{ color:#000;}
+
+th{ border:medium, #000;
+background-image: linear-gradient(bottom, rgb(143,143,141) 0%, rgb(174,193,194) 51%, rgb(158,158,158) 76%);
+background-image: -o-linear-gradient(bottom, rgb(143,143,141) 0%, rgb(174,193,194) 51%, rgb(158,158,158) 76%);
+background-image: -moz-linear-gradient(bottom, rgb(143,143,141) 0%, rgb(174,193,194) 51%, rgb(158,158,158) 76%);
+background-image: -webkit-linear-gradient(bottom, rgb(143,143,141) 0%, rgb(174,193,194) 51%, rgb(158,158,158) 76%);
+background-image: -ms-linear-gradient(bottom, rgb(143,143,141) 0%, rgb(174,193,194) 51%, rgb(158,158,158) 76%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(143,143,141)),
+	color-stop(0.51, rgb(174,193,194)),
+	color-stop(0.99, rgb(158,158,158))
+);
+ font-size:12px;};
+#tabela_servidor {a:active, a:link, a:visited, a:hover{ color:#030;};
+
+/********************* Termina Configuração da tabela zebrada*******************/
+/********************* Configuração de tabelas *******************/
+ .td2 {color:#FFF; background:#DD5569;} 
+ a.td2:link, a.td2:visited, a.td2:hover, a.td2:active { color:#FFF;}
+/********************* Termina Configuração de tabelas *******************/
+
+#tab_patrimonio{ text-align:left; border-color:#FFF;               }
+#tab_patrimonio td{ padding:10; 
+ }
+ 
+ 
+ #mov_carrinho td{ text-align:left;}

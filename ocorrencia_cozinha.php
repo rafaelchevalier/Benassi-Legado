@@ -235,39 +235,17 @@ $filt1 = converte_data($_REQUEST['data1']);
 $filt2 = converte_data($_REQUEST['data2']);
 $filt3 = $_REQUEST['maquina'];
 switch ($_REQUEST['ordem']){
-case 1:
-$ordem = "data_cad";
-break;
-case 2:
-$ordem = "maquina";
-break;
-case 3:
-$ordem = "situacao";
-break;
-case 4:
-$ordem = "obs";
-break;
-case 5:
-$ordem = "situacao_impressora";
-break;
-case 6:
-$ordem = "obs_impressora";
-break;
-case 7:
-$ordem = "situacao_balanca";
-break;
-case 8:
-$ordem = "obs_balanca";
-break;
-case 9:
-$ordem = "situacao_conservacao";
-break;
-case 10:
-$ordem = "obs_conservacao";
-break;
-default:
-$ordem = "id";
-break;
+  case 1:$ordem = "data_cad";break;
+  case 2:$ordem = "maquina";break;
+  case 3:$ordem = "situacao";break;
+  case 4:$ordem = "obs";break;
+  case 5:$ordem = "situacao_impressora";break;
+  case 6:$ordem = "obs_impressora";break;
+  case 7:$ordem = "situacao_balanca";break;
+  case 8:$ordem = "obs_balanca";break;
+  case 9:$ordem = "situacao_conservacao";break;
+  case 10:$ordem = "obs_conservacao";break;
+  default:$ordem = "id";break;
 }
 
 if($_REQUEST['maquina'] == "") { $filt3 = "0";}

@@ -231,12 +231,14 @@ require ("include/verifica.php");
 			</div>
 			<div class="container content">
 				<?
+				$cont_avaliacao = 0;
 				$sql_avaliacao = mysql_query("SELECT * FROM cvp_avaliacoes 
 					WHERE id_cvp_cab = $id 
 					ORDER BY data
 				");
 				
 				while($linha_itens = mysql_fetch_array($sql_avaliacao)){
+					$cont_avaliacao ++;
 					$avaliacao = "";
 					switch ($linha_itens['avaliacao']){
 						case 0:
@@ -270,6 +272,7 @@ require ("include/verifica.php");
 							<div class="service-bg"></div>
 							<i class="icon-custom icon-color-light rounded-x fa fa-thumbs-o-down"></i>
 					<? }?>
+							<p><?php echo "Dia: ",$cont_avaliacao; ?></p>
 							<h2 class="heading-md"><? echo converte_data($linha_itens['data']) ?></h2>
 							<p><? echo $avaliacao ?></p>
 							<? if ($aberto == true){?>

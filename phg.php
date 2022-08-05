@@ -105,7 +105,7 @@ FORMULÁRIO DE CADASTRO DAS PHGS E UMIDADE DAS CÂMARAS FRIGORIFICAS, AS MEDIÇ�
    </tr>
    <tr>
    		<th colspan="4">ORGÂNICO</th>
-   		<th colspan="4">GALPÃO (GRANEL + SALÃO)</th>
+   		<th colspan="4">GALPÃO (GRANEL + SALÃO + COZINHA IND + ZONA SUL)</th>
         <th colspan="2">ANTE-CÂMARA</th>
    </tr>
    <tr>
@@ -407,7 +407,7 @@ FORMULÁRIO DE CADASTRO DAS PHGS E UMIDADE DAS CÂMARAS FRIGORIFICAS, AS MEDIÇ�
    </tr>
    <tr>
    		<th colspan="4">ORGÂNICO</th>
-   		<th colspan="4">GALPÃO (GRANEL + SALÃO)</th>
+   		<th colspan="4">GALPÃO (GRANEL + SALÃO + COZINHA IND + ZONA SUL)</th>
         <th colspan="2">ANTE-CÂMARA</th>
    </tr>
    <tr>
@@ -1291,7 +1291,7 @@ while($linha = mysql_fetch_array($sql)){
    </tr>
    <tr>
    		<th colspan="4">ORGÂNICO</th>
-   		<th colspan="4">GALPÃO (GRANEL + SALÃO)</th>
+   		<th colspan="4">GALPÃO (GRANEL + SALÃO + COZINHA IND + ZONA SUL)</th>
         <th colspan="2">ANTE-CÂMARA</th>
    </tr>
    <tr>
@@ -1599,7 +1599,7 @@ while($linha = mysql_fetch_array($sql)){
    </tr>
    <tr>
    		<th colspan="4">ORGÂNICO</th>
-   		<th colspan="4">GALPÃO (GRANEL + SALÃO)</th>
+   		<th colspan="4">GALPÃO (GRANEL + SALÃO + COZINHA IND + ZONA SUL)</th>
         <th colspan="2">ANTE-CÂMARA</th>
    </tr>
    <tr>

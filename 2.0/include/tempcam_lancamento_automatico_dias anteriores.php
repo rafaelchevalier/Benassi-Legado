@@ -13,6 +13,7 @@ $temperatura = rand(19,22);
 $umidade = rand(70,95); 
 $obs = ''; 
 
+
 if($hora < '12:00'){
 	$periodo = 'Manhã'; }
 if($hora > '12:00' and $hora < '18:00'){
@@ -23,18 +24,18 @@ if ($hora > '18:00'){
 //$data = $data_atual;
 
 //$dia = 01;
-$mes = '10';
-$ano = '2021';
+$mes = '07';
+$ano = '2022';
 
-for ($dia = 1;$dia < 32; $dia++){
+for ($dia = 1 ; $dia < 32; $dia++ ){
 	$periodo = 'Tarde';
 	
 	$data =  date($ano.'-'.$mes.'-'.$dia);
 	//var_dump($data);
 	//Array scom as camaras e temperaturas e midades cadastradas
-	$array_camara = array('Camara 1','Camara 2','Camara 3','Camara 4','Antecamara','Cozinha Ind','Embalados','Setor Zona Sul','Camara Processados','Camara de legumes','Setor Processados');
-	$array_temperatura = array(rand(0,4),rand(0,4),rand(0,4),rand(0,4),rand(10,20),rand(18,22),rand(18,22),rand(18,22),rand(2,6),rand(12,14),rand(17,20));
-	$array_umidade = array(rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95));
+	$array_camara = array('Camara 1','Camara 2','Camara 3','Camara 4','Antecamara','Cozinha Ind','Embalados','Setor Zona Sul','Camara Processados','Camara de legumes','Setor Processados','granel');
+	$array_temperatura = array(rand(0,4),rand(0,4),rand(0,4),rand(0,4),rand(10,20),rand(18,22),rand(18,22),rand(18,22),rand(2,6),rand(12,14),rand(17,20),rand(18,22));
+	$array_umidade = array(rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95));
 
 	//array com dias da semana
 	$diasemana = array('Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado');
@@ -50,5 +51,6 @@ for ($dia = 1;$dia < 32; $dia++){
 			}
 		}
 }		
-	
+
+//Última atualização 15/08/2022 - Inclusão da câmara Granel e rodando script de 12/2021 a 08/2022
 ?>

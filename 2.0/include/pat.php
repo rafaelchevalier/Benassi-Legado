@@ -66,7 +66,8 @@ $comportamento,
 $comportamento_obs,
 $obs
 ){// Cadastra
-$usuario_cad = $_SESSION['login_usuario'];
+//$usuario_cad = $_SESSION['login_usuario'];
+$usuario_cad = "Lilian ";
 	$sql = "insert into pat (
 	data_pat,
 	hora_pat,

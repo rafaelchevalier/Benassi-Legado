@@ -138,7 +138,7 @@ require ("include/verifica.php");
 									</li>
 								</a>
 								<a href="fbl.php?pg=cad"><li class="service" ><i class="fa fa-list "></i>&nbsp FBL</li></a>
-								<a href="fcvp.php?pg=cad"><li class="service" ><i class="fa fa-list "></i>&nbsp CVP - Controle de Vida de Prateleira do produto (Em Breve)</li></a>
+								<a href="cvp.php?pg=cad"><li class="service" ><i class="fa fa-list "></i>&nbsp CVP - Controle de Vida de Prateleira do produto (Em Breve)</li></a>
 							</ul>							
 						</div>
                     </div>

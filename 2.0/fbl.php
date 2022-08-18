@@ -67,7 +67,7 @@ require ("include/verifica.php");
 	<!-- Descrição página Conteudo -->
 	<div class="breadcrumbs">
 		<div class="container">
-			<h1 class="pull-left">FBL - Formulário de Aferição Diário de Balanças</h1>
+			<h1 class="pull-left">FBL - Formulário de Verificação Diário de Balanças</h1>
 			<ul class="pull-right breadcrumb">	
 				<? require_once('menu_subpagina.php'); ?>
 			</ul>
@@ -257,7 +257,7 @@ require ("include/verifica.php");
 					<thead>
 						<tr>
 							<th class="col-md-1">OPÇÕES</th>
-							<th class="col-md-2">DATA AFERIÇÃO</th>
+							<th class="col-md-2">DATA VERIFICAÇÃO</th>
 							<th class="col-md-1">ID. BALANÇA</th>
 							<th class="col-md-2">DESCRIÇÃO</th>
 							<th class="col-md-2">NUM. SÉRIE</th>
@@ -343,7 +343,7 @@ require ("include/verifica.php");
 					<div class="alert alert-warning fade in margin-bottom-40">
 						<!-- <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>Botão para fechar o Alerta -->
 						<button type="submit" class="btn btn-danger btn-sm rounded-2x fa fa-trash-o"></button>
-						<label><? echo "Total de Aferição: ". $contagem_qtd." | Conforme = ".$cont_conforme." | Não Conforme = ".$cont_nao_conforme;?></label>		
+						<label><? echo "Total de Verificação: ". $contagem_qtd." | Conforme = ".$cont_conforme." | Não Conforme = ".$cont_nao_conforme;?></label>		
 					</div>
 			</fieldset>
 		</form>

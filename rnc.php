@@ -26,37 +26,36 @@ $nome_usuario_logado = $_SESSION['nome_usuario'];
 <!-- ************************************************************************************************************************************* 
 											CADASTRO Aferição Balança
 ****************************************************************************************************************************************** -->
-		<? 
+<? 
 	if ($pg == "cad" /*and $rnc_inclui == "1"*/) {//Cadastro Temperatura Camaras?>
 
-    
-    
 <h1>Cadastro</h1> 
-	 <form id="frmcadastro" name="frmcadastro" method="post" action="include/rnc.php?funcao=cad&qt=<? echo $qt?>" >
+<form id="frmcadastro" name="frmcadastro" method="post" action="include/rnc.php?funcao=cad&qt=<? echo $qt?>" >
      <input type="hidden" name="usuario" id="usuario" value="<? echo $nome_usuario_logado?>" maxlength="30" size="31" readonly="readonly"  /></td></td>
- <table width="" border="0" cellspacing="0" align="center" id="tbcad">    
-   <tr>
-     <th rowspan="2">CARACTERÍSTICAS</th>
-     <th>NÚMERO</th>
-     <th>DATA</th>
-     <th>TIPO</th>
-     <th>PROCESSO</th>
-   </tr>
-   <tr>
-    
-     <td><input required name="num_rnc" id="num_rnc" maxlength="255" size="15" /><img src="images/exc.png" width="20" alt="Campo Obrigatório" /></td>
-     <td>
-     <input required name="data_rnc" id="data_10" value="<? echo $data_atual; ?>" size="15" maxlength="10" readonly="readonly" />
-     <img src="images/exc.png" width="20" alt="Campo Obrigatório" /></td>
-     <td>
-       <select name="tipo" id="tipo">
-         <option value="potencial">Potencial</option>
-         <option value="existente">Existente</option>
-       </select>       
-       <img src="images/exc.png" width="20" alt="Campo Obrigatório" /></td>
-     <td><input required name="processo" id="processo" maxlength="255" size="15" /><img src="images/exc.png" width="20" alt="Campo Obrigatório" /></td>
-   </tr>
-   <tr>
+  <table width="" border="0" cellspacing="0" align="center" id="tbcad">    
+    <tr>
+      <th rowspan="2">CARACTERÍSTICAS</th>
+      <th>NÚMERO</th>
+      <th>DATA</th>
+      <th>TIPO</th>
+      <th>PROCESSO</th>
+    </tr>
+    <tr>
+      <td><input required name="num_rnc" id="num_rnc" maxlength="255" size="15" /><img src="images/exc.png" width="20" alt="Campo Obrigatório" /></td>
+      <td>
+        <input required name="data_rnc" id="data_10" value="<? echo $data_atual; ?>" size="15" maxlength="10" readonly="readonly" />
+        <img src="images/exc.png" width="20" alt="Campo Obrigatório" />
+      </td>
+      <td>
+        <select name="tipo" id="tipo">
+          <option value="potencial">Potencial</option>
+          <option value="existente">Existente</option>
+        </select>       
+        <img src="images/exc.png" width="20" alt="Campo Obrigatório" />
+      </td>
+      <td><input required name="processo" id="processo" maxlength="255" size="15" /><img src="images/exc.png" width="20" alt="Campo Obrigatório" /></td>
+    </tr>
+    <tr>
      <th>DESCRIÇÃO</th>
      <td colspan="4" align="left"><textarea name="descricao" cols="80" rows="4" id="descricao"></textarea></td>
    </tr>
@@ -69,17 +68,17 @@ $nome_usuario_logado = $_SESSION['nome_usuario'];
      <td colspan="4" align="left"><textarea name="causa" cols="80" rows="2" id="causa"></textarea></td>
    </tr>
    <!-- *************************** AÇÃO CORRETIVA *****************************-->
-   <tr>
+    <tr>
    		<th colspan="5">AÇÃO CORRETIVA</th>
-   </tr>
-   <tr>
-     <th>DATA</th>
-     <th>RESPONSÁVEL</th>
-     <th colspan="3">DESCRIÇÃO</th>
-   </tr>
-   <tr>
-     <th colspan="5">Todos os campos na mesma linha da ação corretiva deve ser prenchido. Caso um dos campos fique em branco o sistema não gravará no banco de dados a linha toda. </th>
-   </tr>
+    </tr>
+    <tr>
+      <th>DATA</th>
+      <th>RESPONSÁVEL</th>
+      <th colspan="3">DESCRIÇÃO</th>
+    </tr>
+    <tr>
+      <th colspan="5">Todos os campos na mesma linha da ação corretiva deve ser prenchido. Caso um dos campos fique em branco o sistema não gravará no banco de dados a linha toda. </th>
+    </tr>
    
    <? $qt = 0;
     if ($_GET['qt'] =="" or $_GET['qt'] > "40" ){$_GET['qt'] = 5; }
@@ -124,7 +123,8 @@ $nome_usuario_logado = $_SESSION['nome_usuario'];
        </div></td>
    </tr>
  </table>
-  </form>	<? } ?>
+</form>	
+<? } ?>
 <!-- ************************************************************************************************************************************* 
 											FIM CADASTRO Aferição Balança
 ****************************************************************************************************************************************** -->

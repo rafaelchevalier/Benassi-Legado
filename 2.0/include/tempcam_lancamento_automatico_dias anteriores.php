@@ -24,10 +24,11 @@ if ($hora > '18:00'){
 //$data = $data_atual;
 
 //$dia = 01;
-$mes = '07';
+$mes = '08';
 $ano = '2022';
 
-for ($dia = 1 ; $dia < 32; $dia++ ){
+for ($dia = 1 ; $dia < 17; $dia++ ){
+	//$periodo = 'Manhã';
 	$periodo = 'Tarde';
 	
 	$data =  date($ano.'-'.$mes.'-'.$dia);

@@ -295,7 +295,7 @@ require ("include/verifica.php");
 										
 									<? }?>							
 								</td>
-								<td><? echo converte_data($linha['data_medicao'])." / ".$linha['hora_medicao']; ?></td>
+								<td><? echo converte_data($linha['data_medicao']);?></td>
 								<td><? echo utf8_encode($linha['periodo']); ?></td>
 								<td><? echo $linha['nome_usuario'] ?></td>
 								<td><? echo utf8_encode($linha['camara']) ?></td>

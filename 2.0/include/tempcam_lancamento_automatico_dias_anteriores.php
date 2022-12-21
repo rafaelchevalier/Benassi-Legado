@@ -8,10 +8,10 @@ $hora = date('H:i');// Puxa hora atual
 
 //Define as variáveis para gravação
 $nome = 'Qualidade'; 
-$camara = 'Cozinha Ind'; 
-$temperatura = rand(19,22);  
-$umidade = rand(70,95); 
-$obs = ''; 
+$camara = 'Organico'; 
+$temperatura = rand(19,21);  
+$umidade = rand(80,90); 
+$obs = '19/12/2022'; 
 
 
 if($hora < '12:00'){
@@ -24,17 +24,17 @@ if ($hora > '18:00'){
 //$data = $data_atual;
 
 //$dia = 01;
-$mes = '08';
+$mes = '10';
 $ano = '2022';
 
-for ($dia = 1 ; $dia < 17; $dia++ ){
-	//$periodo = 'Manhã';
-	$periodo = 'Tarde';
+for ($dia = 1 ; $dia < 31; $dia++ ){
+	$periodo = 'Manhã';
+	//$periodo = 'Tarde';
 	
 	$data =  date($ano.'-'.$mes.'-'.$dia);
 	//var_dump($data);
 	//Array scom as camaras e temperaturas e midades cadastradas
-	$array_camara = array('Camara 1','Camara 2','Camara 3','Camara 4','Antecamara','Cozinha Ind','Embalados','Setor Zona Sul','Camara Processados','Camara de legumes','Setor Processados','granel');
+	$array_camara = array('Organicos','Camara 1','Camara 2','Camara 3','Camara 4','Antecamara','Cozinha Ind','Embalados','Setor Zona Sul','Camara Processados','Camara de legumes','Setor Processados','granel');
 	$array_temperatura = array(rand(0,4),rand(0,4),rand(0,4),rand(0,4),rand(10,20),rand(18,22),rand(18,22),rand(18,22),rand(2,6),rand(12,14),rand(17,20),rand(18,22));
 	$array_umidade = array(rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95),rand(70,95));
 
